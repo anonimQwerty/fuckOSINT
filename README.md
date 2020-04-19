@@ -8,6 +8,7 @@
  * Instagram
  * Twitter
  * Steam
+ * Ok.ru
 
 
 ## Installing
