@@ -18,26 +18,22 @@ modes=['1.пробив по имени ']
 
 
 
-def logo ():
-	if os.name == 'nt':
-		_ = os.system ('cls')
-	else:
-		_ = os.system ('clear')
-	print('''
 
-                            #######  #####  ### #     # ####### 
-###### #    #  ####  #    # #     # #     #  #  ##    #    #    
-#      #    # #    # #   #  #     # #        #  # #   #    #    
-#####  #    # #      ####   #     #  #####   #  #  #  #    #    
-#      #    # #      #  #   #     #       #  #  #   # #    #    
-#      #    # #    # #   #  #     # #     #  #  #    ##    #    
-#       ####   ####  #    # #######  #####  ### #     #    #   
-
-		''')
 
 
 def main():
-	logo()
+	fuckOSINT_byname.logo()
+	for i in modes:
+		print(i)
+	m=int(input('choose mode '))
+	if m==1:
+		fuckOSINT_byname.main()
+
+
+
+
+if __name__ == '__main__':
+	main()
 	for i in modes:
 		print(i)
 	m=int(input('choose mode '))
