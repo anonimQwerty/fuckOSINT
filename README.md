@@ -9,6 +9,7 @@
  * Twitter
  * Steam
  * Ok.ru
+ * YouTube
 
 
 ## Installing
