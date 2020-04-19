@@ -13,7 +13,9 @@
 
 
 ## Installing
+Type
  ``` git clone https://github.com/anonimQwerty/fuckOSINT.git```
+ 
  If installed python2 and python3 type:
  ```pip3 install requests```
  If installed only python 3 type:
