@@ -14,7 +14,7 @@ headers_useragents=['Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko
 'Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.51'
 ]
 
-sites=['https://instagram.com/', 'https://twitter.com/', 'https://steamcommunity.com/id/', 'https://ok.ru/']
+sites=['https://instagram.com/', 'https://twitter.com/', 'https://steamcommunity.com/id/', 'https://ok.ru/', 'https://www.youtube.com/user/']
 header_list=[]
 
 
@@ -67,23 +67,6 @@ def check(header, target):
 				print(f'{i} not found')
 		except:
 			print(f"Возможно сайт не доступен в вашем регионе {i}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
