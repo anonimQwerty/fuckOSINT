@@ -42,9 +42,9 @@ def initHeaders():
 
 def logo ():
 	if os.name == 'nt':
-		_ = os.system ('cls')
+		os.system ('cls')
 	else:
-		_ = os.system ('clear')
+		os.system ('clear')
 	print('''
 
                             #######  #####  ### #     # ####### 
