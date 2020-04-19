@@ -14,7 +14,7 @@ headers_useragents=['Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko
 'Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.51'
 ]
 
-sites=['https://instagram.com/', 'https://twitter.com/', 'https://steamcommunity.com/id/']
+sites=['https://instagram.com/', 'https://twitter.com/', 'https://steamcommunity.com/id/', 'https://ok.ru/']
 header_list=[]
 
 
@@ -99,8 +99,3 @@ def main():
 	header=initHeaders()
 	target=input('target: ')
 	check(header, target)
-	
-
-
-if __name__ == '__main__':
-	main()
