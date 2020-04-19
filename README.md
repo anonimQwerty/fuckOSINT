@@ -4,6 +4,10 @@
 ## Features
  * maked for Russia and CIS
  * working in windows, android, linux OSx(not tested)
+## Services
+ * Instagram
+ * Twitter
+ * Steam
 
 
 ## Installing
