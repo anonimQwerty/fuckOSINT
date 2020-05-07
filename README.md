@@ -10,7 +10,8 @@
  * Steam
  * Ok.ru
  * YouTube
- * freelance.ru
+ * Freelance.ru
+ * Telegram
 
 
 ## Installing
