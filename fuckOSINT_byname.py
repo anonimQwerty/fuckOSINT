@@ -1,7 +1,7 @@
 import requests, libs.logo, libs.users_agents
 
 
-sites=['https://instagram.com/', 'https://twitter.com/', 'https://steamcommunity.com/id/', 'https://ok.ru/', 'https://www.youtube.com/user/']
+sites=['https://instagram.com/', 'https://twitter.com/', 'https://steamcommunity.com/id/', 'https://ok.ru/', 'https://www.youtube.com/user/', 'https://freelance.ru/']
 
 
 def check(header, target, proxy=0):
