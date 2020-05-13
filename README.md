@@ -12,6 +12,8 @@
  * YouTube
  * Freelance.ru
  * Telegram
+ * Github
+ * Gitlab
 
 
 ## Installing
