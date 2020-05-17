@@ -14,6 +14,8 @@
  * Telegram
  * Github
  * Gitlab
+ * Habr
+ * PicsArt
 
 
 ## Installing
