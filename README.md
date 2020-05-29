@@ -18,6 +18,7 @@
  * PicsArt
  * Qiwi piggy bank
  * DonationAllerts
+ * Vk
 
 
 ## Installing
