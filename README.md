@@ -4,7 +4,7 @@
 ## Features
  * maked for Russia and CIS
  * working in windows, android, linux OSx(not tested)
-## Services
+## Services for searching by name: 
  * Instagram
  * Twitter
  * Steam
@@ -16,6 +16,8 @@
  * Gitlab
  * Habr
  * PicsArt
+ * Qiwi piggy bank
+ * DonationAllerts
 
 
 ## Installing
