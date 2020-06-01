@@ -28,11 +28,11 @@ Type:
  
  If installed python2 and python3 type:
  
- ```pip3 install requests```
+ ```sudo pip3 install -r requirements.txt```
  
  If installed only python 3 type:
  
- ```pip install requests```
+ ```sudo pip install -r requirements.txt```
  
 ## Using
 If installed python2 and python3 type:
