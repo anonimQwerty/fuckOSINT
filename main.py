@@ -1,8 +1,9 @@
 import fuckOSINT_byname
+import ip
 # number
 import libs.logo as logo
 
-modes=['1.пробив по имени ']
+modes=['1.пробив по имени ', '2.Пробив по ip ']
 
 def main():
 	logo.logo()
@@ -12,7 +13,7 @@ def main():
 	if m==1:
 		fuckOSINT_byname.main()
 	elif m==2:
-		number.main()
+		ip.main()
 
 if __name__ == '__main__':
 	main()
