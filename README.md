@@ -32,6 +32,7 @@
  * Yandex
  * Pikabu
  * Yandex zen
+ * Facebook
 ## Servises for searching by IP
 * iknowwhatyoudownload
 
