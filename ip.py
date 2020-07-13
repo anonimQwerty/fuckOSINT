@@ -28,9 +28,36 @@ def torrent(target_ip):
 		print(f'Использовано первый раз: {first}, использовано последний раз: {last}, тип торрента: {category}, название торенрта: {name}, размер торента: {size}\n')
 
 
-
-
-
+def ip_info(ip):
+	page =requests.get(f"http://ip-api.com/json/{ip}?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,offset,currency,isp,org,as,asname,reverse,mobile,proxy,hosting,query")
+	page=page.json()
+	if page['status']=='success':
+		print(f'''
+Континент: {page['continent']}
+Страна: {page['country']}
+Код страны: {page['countryCode']}
+Регион: {page['region']}
+Название региона: {page['regionName']}
+Город: {page['city']}
+Район: {page['district']}
+Почтовый индекс: {page['zip']}
+Широта: {page['lat']}
+Долгота: {page['lon']}
+Часовой пояс: {page['timezone']}
+Часовой пояс UTC DST смещение в секундах: {page['offset']}
+Национальная валюта: {page['currency']}
+Имя провайдера: {page['isp']}
+Имя организации: {page['org']}
+AS номер и организация: {page['as']}
+AS Имя: {page['asname']}
+Обратный DNS IP: {page['reverse']}
+Мобильное соединение: {page['mobile']}
+Прокси, ВПН или принадлежность к сети ТОР: {page['proxy']}
+Хостинг, или дата-центр: {page['hosting']}
+IP использованый для запроса: {page['query']}
+''')
+	else:
+		print('No success')
 
 
 def main():
@@ -38,4 +65,6 @@ def main():
 	ip = input("target ip: ")
 	print('Поиск информации по торентах. Ожидайте \n')
 	torrent(ip)
+	print('нформация по IP')
+	ip_info(ip)
 	#print('')
