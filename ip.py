@@ -63,8 +63,8 @@ IP использованый для запроса: {page['query']}
 def main():
 	logo.logo()
 	ip = input("target ip: ")
+	print('Информация по IP')
+	ip_info(ip)
 	print('Поиск информации по торентах. Ожидайте \n')
 	torrent(ip)
-	print('нформация по IP')
-	ip_info(ip)
 	#print('')
